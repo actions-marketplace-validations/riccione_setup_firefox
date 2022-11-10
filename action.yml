@@ -1,0 +1,9 @@
+name: 'Setup Firefox ^_-'
+description: 'Installs Firefox on Linux'
+runs:
+  using: "composite"
+  steps:
+    - run: echo "${{ github.action_path }}" >> $GITHUB_PATH
+      shell: bash
+    - run: firefox.sh
+      shell: bash
