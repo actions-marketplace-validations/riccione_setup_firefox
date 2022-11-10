@@ -1,7 +1,7 @@
 name: 'Setup Firefox ^_-'
 description: 'Installs Firefox on Linux'
 branding:
-  icon: "arrow-up-right" # icon name from Feather open source icons pack
+  icon: "arrow-up-right"
   color: "orange"
 runs:
   using: "composite"
